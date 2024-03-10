@@ -1,0 +1,411 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 Times-Roman;
+\f3\fswiss\fcharset0 Arial-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red135\green135\blue135;
+\red13\green13\blue13;\red251\green0\blue7;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c1\c1;\cssrgb\c60066\c60066\c59991;
+\cssrgb\c5882\c5882\c5882;\cssrgb\c100000\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\fs53\fsmilli26667 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Personal Info
+\f1\b\fs48 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf0 Name:
+\f2\fs24  
+\f0\fs29\fsmilli14667 Yap Hao Wen
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 Gender:\'a0Male
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 Phone number: 0129690115
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 Preferred Language: \cf3 \strokec4 English, Chinese
+\f2\fs24 \cf0 \strokec2 \
+
+\f0\fs29\fsmilli14667 Working Experience: \cf3 \strokec4 Internship (Fresh Grad)
+\f2\fs24 \cf0 \strokec2 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs53\fsmilli26667 \cf0 Explanation
+\f1\b\fs48 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf0 You can use any tool to complete these questions. You should consider the case of different inputs, not question inputs for each question, we expect different scenarios to be handled, and the function will still work accordingly.
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 Allows the use of search engines and reference books for code reference and syntax.
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 However, you cannot search for instant solutions to your problems. You will be disqualified if do so.
+\f2\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Submission:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 - Must submit your code into either (Github/ Gitlab/ Send through whatsapp).
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 - Provide a link to your repo/ drive
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f3\b\fs34\fsmilli17333 \cf0 Question 1
+\f0\b0\fs53\fsmilli26667 \'a0
+\f1\b\fs48 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf5 \strokec5 Jack operates a photo-sharing website where users can upload and download images.\'a0
+\f2\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs29\fsmilli14667 \cf5 \strokec5 Non-members are restricted from downloading images if they have downloaded another image within the past 5 seconds.
+\f2\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs29\fsmilli14667 \cf5 \strokec5 In contrast, members are allowed to download two images consecutively without any waiting period. However, for their third download and beyond, they must wait 5 seconds since their last download, similar to non-members.
+\f2\fs24 \cf0 \strokec2 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\qj\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Write a function:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 checkDownload($memberType)
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 The function accepts member type as input and returns the response depending on the aforementioned rules.
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 If the user tries to download again within the 5-second wait time, it should return a message "Too many downloads".
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 The waiting time validation should happen in the backend/frontend. (backend is preferred)
+\f2\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Expected outcomes:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 Non-members:
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 00:00:00 execute checkDownload(\'91nonmember\'92) returns "Your download is starting..."
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 00:00:03 execute checkDownload(\'91nonmember\'92) returns "Too many downloads"
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 Members:
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 00:00:00 execute checkDownload(\'91member\'92) returns "Your download is starting..."
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 00:00:03 execute checkDownload(\'91member) returns "Your download is starting..."
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 00:00:05 execute checkDownload(\'91member) returns "Too many downloads"
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f3\b\fs34\fsmilli17333 \cf0 Question 2
+\f1\fs48 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf5 \strokec5 Kiki and Sam, who are good friends working in the catering industry, plan to implement a discount promotion in their POS system. The promotion offers a 10% discount for purchases over 500, a 5% discount for purchases under 500, but no discount for purchases below 100.
+\f2\fs24 \cf0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Write a function:
+\f0\b0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 checkDiscount($purchaseValue)
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 The function takes $purchaseValue and checks to determine the amount of the discount offer.
+\f2\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Expected outcomes:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 checkDiscount(300)
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 Purchase Value is 300 , discount is 5%
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 checkDiscount(80)
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 Purchase Value is 80 , there are no discount.
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\
+\
+\
+\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f3\b\fs34\fsmilli17333 \cf0 Question 3
+\f1\fs48 \
+\pard\pardeftab720\qj\partightenfactor0
+
+\f3\fs29\fsmilli14667 \cf0 Write a function:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 How Can We Know The Number Of Days Between Two Given Dates Using PHP? Is The Day Odd Or Even. (This question can be played in any form freely)
+\f2\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\
+\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f3\b\fs34\fsmilli17333 \cf0 Question 4
+\f1\fs48 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf5 \strokec5 Ong, a game developer, has released a gacha game on the App Store where players can use in-game currency to obtain random equipment items for their characters.
+\f2\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs29\fsmilli14667 \cf5 \strokec5 Recently, he introduced a VIP reward system, incentivizing players to spend real money in the game. This system is tiered: the more a player spends, the higher their VIP level becomes.
+\f2\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs29\fsmilli14667 \cf5 \strokec5 To enhance the benefits for VIP players, Ong is now looking to increase their chances of acquiring higher-tier items. He seeks assistance in developing a feature that would proportionally improve the likelihood of higher-tier VIPs receiving items of greater rarity.
+\f2\fs24 \cf0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Given that:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 item_tier_rarity = [1,2,3,4,5] // 1 = common , 5 = legend
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 vip_rank = [v1,v2,v3,v4,v5] //v1 = lowest rank
+\f2\fs24 \
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Write functions:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 1.\'a0 Function roll_item(vip_rank) to generate random item.
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 2.\'a0 A function that loops the roll_item() 100 times foreach vip_ranks, and print the item distribution result.
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 3.\'a0 Sample results:
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 {{\NeXTGraphic BFIDpAuKbxjx7drKTSdkebKY9CHrddQyFkB5pzOikw_TsW6jJZlicAEhcOCiNkJPzgYjEdBPMfvOMfpkbKIRx7M7xtwf9JUi12rU5gYUDknZuMtwVXAGm-flONzPahmJXAE1002Krk6UyhMq6wJqT74.png \width1460 \height5180 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Expected Outcomes:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 vip1 player have higher chance to get an item in [1,2] rarity
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 vip2 player have higher chance to get an item in [1,2,3] rarity
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 vip3 player have higher chance to get an item in [1,2,3,4] rarity
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0
+\f2\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 Please note that:
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 1.\'a0 Ong may add more items to item_rarity[]. exp [6, 7, 8]
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 2.\'a0 Ong may add more level to vip_ranks[]. exp [vip4, vip5]
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 3.\'a0 allow to make additional assumptions
+\f2\fs24 \
+
+\f0\fs29\fsmilli14667 4.\'a0 Avoid any hardcoded logic that may disallow new entry into item_rarity and vip_rank
+\f2\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\pard\pardeftab720\sa53\partightenfactor0
+
+\f3\b\fs32 \cf0 \'a0
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f3\b\fs34\fsmilli17333 \cf0 Question 4
+\f1\fs48 \
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f0\b0\fs29\fsmilli14667 \cf0 The following are logical/theoretical thinking questions. Answer based on your understanding and cannot be used as a reference. The answer can be shortened.
+\f2\fs24 \
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 \'a0
+\f2\b0\fs24 \
+
+\f3\b\fs29\fsmilli14667 1.What is Git /SVN (Version Ctrl System)?
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 \'a0
+\f2\b0\fs24 \
+
+\f3\b\fs29\fsmilli14667 2.Explain the purpose of Backend ?
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 \'a0
+\f2\b0\fs24 \
+
+\f3\b\fs29\fsmilli14667 3.What is Web Server
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 \'a0
+\f2\b0\fs24 \
+
+\f3\b\fs29\fsmilli14667 4.How would you integrate tests into your workflow?
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\pard\pardeftab720\ri1173\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf0 \'a0
+\f2\b0\fs24 \
+
+\f3\b\fs29\fsmilli14667 5.How would you unit test a new feature?
+\f2\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf6 \strokec6 Your Answer:
+\f2\b0\fs24 \cf0 \strokec2 \
+\
+\
+}
