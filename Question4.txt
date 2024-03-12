@@ -1,0 +1,23 @@
+1.What is Git /SVN (Version Ctrl System)?
+
+Ans: A system that helps developers record and manage changes to the files (versions) of a project.
+ 
+2.Explain the purpose of Backend ?
+
+Ans: Retrieve, modify, and process data, as well as prepare them for the frontend.
+
+ 
+3.What is Web Server
+
+Ans: Server that uses protocols (such as HTTP) to provide responses to clients over the internet.
+
+ 
+4.How would you integrate tests into your workflow?
+
+Ans: Carry out unit testing when a module is developed and write tests to ensure code passes the tests before merging into main codebase.
+
+ 
+5.How would you unit test a new feature?
+
+Ans: Identify all possible scenarios for the code and write tests that covers all possible scenarios, such as invalid input and boundary inputs.
+
